@@ -9,21 +9,7 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <%= link_to "Home", root_path %>
-        </li>
-        <li>
-          <%= link_to "About Me", about_me_path %>
-        </li>
-        <li>
-          <%= link_to "Blogs", blogs_path %>
-        </li>
-        <li>
-          <%= link_to "Portfolio", portfolios_path %>
-        </li>
-        <li>
-          <%= link_to "Contact", contact_path %>
-        </li>
+        <%= nav_helper ' ', 'li' %>
         <li>
           <%= login_helper %>
         </li>
