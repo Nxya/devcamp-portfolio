@@ -17,7 +17,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
-          <div id="background"></div>
+          <%= video_tag(
+            "Code_flythough_loop_01_Videvo.mov",
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'Code_Fly.png'
+          )
+          %>
 
           <%= render "shared/application_nav" %>
 
