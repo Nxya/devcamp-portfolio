@@ -165,13 +165,19 @@ body {
  * Custom Styles
  */
 
+ .card {
+  color: white;
+  background-color: slategrey;
+ }
+
  .card-block {
-  color: black;
+  color: white;
   text-align: left;
+  padding: 20px;
  }
 
  .auth-links a {
-  color: black;
+  color: white;
  }
 
  .register-text {
@@ -200,51 +206,59 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('Audio_Bands.png') no-repeat;
+  background: image-url('Bands.png') no-repeat;
   background-size: cover;
  }
 
  .app-footer {
-  color: white;
+  color: steelblue;
+ }
+
+ .cover-heading {
+  color: steelblue;
  }
 
  .tech-news {
   margin: 20px;
-  color: black;
+  color: white;
  }
 
  .tech-news a {
-  color: green;
+  color: black;
  }
 
  .tech-news > .card {
   padding: 30px;
+  background-color: slategrey;
  }
 
  .home-card {
-  color: black;
+  color: white;
  }
 
  .home-card > .card {
   padding: 25px;
+  background-color: slategrey;
  }
 
  .about-card {
-  color: black;
+  color: white;
  }
 
  .about-card > .card {
   padding: 30px;
+  background-color: slategrey;
  }
 
  .contact-card {
-  color: black;
+  color: white;
  }
 
  .contact-card a {
-  color: green;
+  color: black;
  }
 
  .contact-card > .card {
   padding: 30px;
+  background-color: slategrey;
  }
