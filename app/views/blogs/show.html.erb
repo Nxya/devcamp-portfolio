@@ -7,8 +7,8 @@
     <span class="breadcrumb-item active"><%= @blog.title %></span>
 
     <span class="icon-class">
-      <%= link_to fa_icon('pencil-square-o'), edit_blog_path(@blog) if logged_in?(:site_admin) %> /
-      <%= link_to fa_icon('trash'), @blog, method: :delete, data: { confirm: 'Are you certain about this?' } if logged_in?(:site_admin) %>
+      <%= link_to fa_icon('pencil'), edit_blog_path(@blog) if logged_in?(:site_admin) %> |
+      <%= link_to fa_icon('eraser'), @blog, method: :delete, data: { confirm: 'Are you certain about this?' } if logged_in?(:site_admin) %>
     </span>
   </nav>
 

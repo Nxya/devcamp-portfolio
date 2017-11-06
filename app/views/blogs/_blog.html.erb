@@ -2,13 +2,7 @@
   <h2 class="blog-post-title"><%= link_to blog.title.upcase, blog %></h2>
   <p class="blog-post-meta">Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> ago</p>
 
-  <% if logged_in?(:site_admin) %>
-    <p class="blog-post-meta">
-      <%= link_to blog.status, toggle_status_blog_path(blog), class: "btn btn-success" %>
-      <%= link_to 'Edit', edit_blog_path(blog), class: "btn btn-info" %>
-      <%= link_to 'Delete Post', blog, method: :delete, class: "btn btn-danger", data: { confirm: 'Are you certain you want this?' } %>
-    </p>
-  <% end %>
+  <%= render partial: 'blogs/admin_actions', locals: { blog: blog } %>
 
   <p>
     <%= blog.body %>
