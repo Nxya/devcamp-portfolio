@@ -25,7 +25,7 @@ module BlogsHelper
 
   def blog_status_color blog
     if blog.draft?
-      'color: crimson;'
+      'color: #d2143a;'
     else
       'color: #00e68e;'
     end

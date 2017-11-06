@@ -200,3 +200,144 @@ h6, .h6 {
   font-size: 1.25em;
   margin: 0px 10px 0px 10px;
 }
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+.navbar-inverse {
+  background-color: #380a51
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #27003d
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #27003d
+}
+
+.dropdown-menu {
+  background-color: #4f007c
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #27003d
+}
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #190023
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #fffb11
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #fffb11
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #fffb11
+}
+
+.dropdown-menu>li>a {
+  color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #fffb11
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-header {
+  font-size: 1.2em;
+}
+
+.portfolio-container {
+  padding-top: 30px;
+}
+
+.nav-bar.active {
+  color: #fffb11
+}
+
+.purple-background {
+  background-color: #4f007c;
+  border-color: #4f007c;
+}
+
+.purple-background:hover {
+  background-color: #27003d;
+  border-color: #27003d;
+}
+
+.blog-header {
+  padding-top: 10px;
+}
+
+.blog-post-title:a {
+  color: #4f007c;
+}
+
+.blog-post-title:hover {
+  color: #27003d;
+}
+
+
