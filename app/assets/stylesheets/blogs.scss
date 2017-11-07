@@ -355,3 +355,20 @@ h6, .h6 {
 .topic-custom a {
   color: #4f007c;
 }
+
+.page-link {
+  color: #4f007c;
+}
+
+.page-link:hover {
+  color: #8a00db;
+}
+
+.page-item.active .page-link {
+  background-color: #4f007c;
+  border-color: #4f007c;
+}
+
+.page-item.active .page-link:hover {
+  color: white;
+}
