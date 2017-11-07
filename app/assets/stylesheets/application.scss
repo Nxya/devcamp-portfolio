@@ -27,14 +27,26 @@ a:hover {
  * Base structure
  */
 
+
+
 html,
 body {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -211,11 +223,7 @@ body {
  }
 
  .app-footer {
-  color: steelblue;
- }
-
- .cover-heading {
-  color: steelblue;
+  color: white;
  }
 
  .tech-news {
@@ -224,7 +232,7 @@ body {
  }
 
  .tech-news a {
-  color: black;
+  color: skyblue;
  }
 
  .tech-news > .card {
@@ -232,33 +240,33 @@ body {
   background-color: slategrey;
  }
 
- .home-card {
-  color: white;
- }
-
- .home-card > .card {
+ .card {
   padding: 25px;
   background-color: slategrey;
  }
 
- .about-card {
-  color: white;
+ .app-card-container {
+  text-align: left;
  }
 
- .about-card > .card {
-  padding: 30px;
-  background-color: slategrey;
+ .profile-img {
+  border: 1px solid grey;
  }
 
- .contact-card {
-  color: white;
+ .email-link a {
+  color: skyblue;
  }
 
- .contact-card a {
-  color: black;
+ .card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
  }
 
- .contact-card > .card {
-  padding: 30px;
-  background-color: slategrey;
+ .skill {
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
+ .masthead .clearfix {
+  margin: 10px;
  }

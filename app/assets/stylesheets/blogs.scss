@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Open Sans', sans-serif;
   color: #555;
 }
 
@@ -23,7 +23,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   color: #333;
 }
@@ -189,4 +189,183 @@ h6, .h6 {
 
 .comment-name {
   font-weight: 700;
+}
+
+.icon-class {
+  margin: 0px 15px 0px 15px;
+  font-size: 1.15em;
+}
+
+.blogcrumb a {
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+.navbar-inverse {
+  background-color: #380a51
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #27003d
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #27003d
+}
+
+.dropdown-menu {
+  background-color: #4f007c
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #27003d
+}
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #190023
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #fffb11
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #fffb11
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #fffb11
+}
+
+.dropdown-menu>li>a {
+  color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #fffb11
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-header {
+  font-size: 1.2em;
+}
+
+.portfolio-container {
+  padding-top: 30px;
+}
+
+.nav-bar.active {
+  color: #fffb11
+}
+
+.purple-background {
+  background-color: #4f007c;
+  border-color: #4f007c;
+}
+
+.purple-background:hover {
+  background-color: #27003d;
+  border-color: #27003d;
+}
+
+.blog-header {
+  padding-top: 10px;
+}
+
+.blog-post-title a {
+  color: #4f007c;
+}
+
+.button-color {
+  color: #4f007c;
+}
+
+.social-links a {
+  color: #4f007c;
+}
+
+.social-links a:hover {
+  color: #6500a0;
+}
+
+.blog-sidebar-source {
+  margin-top: 20px;
+}
+
+.topic-custom a {
+  color: #4f007c;
+}
+
+.page-link {
+  color: #4f007c;
+}
+
+.page-link:hover {
+  color: #8a00db;
+}
+
+.page-item.active .page-link {
+  background-color: #4f007c;
+  border-color: #4f007c;
+}
+
+.page-item.active .page-link:hover {
+  color: white;
 }

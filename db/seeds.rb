@@ -8,6 +8,15 @@ User.create!(
 
 puts "Admin user created"
 
+User.create!(
+  email: "test2@test.com",
+  name: "Regular User",
+  password: "123456",
+  password_confirmation: "123456",
+  )
+
+puts "Regular user created"
+
 3.times do |topic|
   Topic.create!(
     title: "Topic #{topic}"

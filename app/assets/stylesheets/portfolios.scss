@@ -5,6 +5,16 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .jumbotron {
@@ -35,7 +45,7 @@ body {
 
 .card {
   float: left;
-  width: 33.333%;
+  width: 100%;
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
@@ -58,15 +68,12 @@ footer p {
   margin-bottom: .25rem;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
 .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar .nav {
   font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.2rem
 }
@@ -173,4 +180,8 @@ footer p {
 
 .nav-bar.active {
   color: #fffb11
+}
+
+.title-links a {
+  color: #4f007c;
 }

@@ -7,7 +7,13 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+    </style>
+
     <meta name="keywords" content="<%= @seo_keywords %>" />
+
+    <%= favicon_link_tag 'favicons/other_favicon.ico' %>
 
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -32,8 +38,6 @@
         </div>
 
         <%= alerts %>
-
-        <%= source_helper %>
       </div>
     </div>
   </body>

@@ -1,8 +1,19 @@
-<div class="blog-masthead">
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
   <div class="container">
-    <nav class="nav blog-nav">
-      <%= nav_helper 'nav-link', 'span' %>
-      <%= login_helper 'nav-link' %>
+    <div class="navbar-header">
+      <button class="fa fa-caret-down" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand">Alex Brown</div>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <%= nav_helper ' ', 'li' %>
+        <li>
+          <%= login_helper %>
+        </li>
+      </ul>
     </nav>
   </div>
-</div>
+</header>
